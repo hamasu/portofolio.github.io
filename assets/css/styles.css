@@ -193,7 +193,7 @@ image{
 } 
 .home__title{
     align-self: flex-end;
-    font-size: var(--big-font-size);
+    font-size: var(--medium-font-size);
     color:var(--text-color);
     line-height: 1.03;
 }
