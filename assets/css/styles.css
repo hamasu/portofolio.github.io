@@ -1,6 +1,6 @@
 /*## GOOGLE FONT ##*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
 
 /*## VAriable Css ##*/
 :root{
@@ -19,6 +19,7 @@
     --body-font: 'Poppins', sans-serif;
     --big-font-size: 6.25rem;
     --h2-font-size: 1.25rem;
+    --medium2-font-sixze: 5.0rem;
     --medium-font-size: 3rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
@@ -121,7 +122,7 @@ image{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--first-color);
+    background-color: #fff;
 }
 
 /*## Nav ##*/
@@ -156,8 +157,8 @@ image{
     color: var(--text-color);
 }
 .nav__logo{
-    font-family: 'Sansita Swashed', cursive;
-    font-size: var(--h2-font-size);
+
+    font-size: 1.4rem;
     color: var(--text-color);
 }
 .nav__toggle{
@@ -183,7 +184,7 @@ image{
 /*## Home ##*/
 .home{
     position: relative;
-    background-color: var(--first-color);
+    background-color: #fff;
     overflow: hidden;
 
 }
@@ -193,7 +194,7 @@ image{
 } 
 .home__title{
     align-self: flex-end;
-    font-size: var(--big-font-size);
+    font-size: var(--medium-font-size);
     color:var(--text-color);
     line-height: 1.03;
 }
@@ -203,7 +204,7 @@ image{
 
 .home__scroll{  
     align-self: flex-end;
-    padding-bottom: var(--mb-4);
+    padding-bottom: var(--mb-3);
 }
 .home__scroll-link{
     writing-mode: vertical-lr;
